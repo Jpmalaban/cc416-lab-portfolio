@@ -4,19 +4,19 @@ const app = document.querySelector("#app");
 
 const steps = [
   {
-    title: "Install Node.js",
+    title: "Install Node.js - JPVM",
     detail: "Download the LTS version from nodejs.org. npm is installed together with Node.js."
   },
   {
-    title: "Open the Folder",
+    title: "Open the Folder - JPVM",
     detail: "Extract the Google Drive ZIP file, then open lab_03.02_ON_YOUR_OWN in VS Code or PowerShell."
   },
   {
-    title: "Install Packages",
+    title: "Install Packages - JPVM",
     detail: "Run npm install once. This downloads Vite, Tailwind CSS, PostCSS, and Autoprefixer."
   },
   {
-    title: "Run and Submit",
+    title: "Run and Submit - JPVM",    
     detail: "Run npm run dev, open the local URL, then complete the GitHub branch and commit workflow."
   }
 ];
