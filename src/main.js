@@ -158,19 +158,30 @@ git commit -m "Complete Lab 03.02"</code></pre>
       </div>
     </section>
 
-    <section class="border-t border-zinc-200 bg-zinc-950">
+    <section class="border-t border-zinc-200 bg-zinc-900">
       <div class="mx-auto max-w-6xl px-6 py-10 lg:px-8">
-        <p class="text-sm font-semibold uppercase text-cyan-300">Submission checklist</p>
-        <h2 class="mt-3 text-3xl font-bold text-white">Before sending your GitHub link</h2>
-        <div class="mt-6 grid gap-3 md:grid-cols-2">
-          ${checklist.map((item) => `
-            <div class="flex items-center gap-3 rounded-md bg-white/5 px-4 py-3 ring-1 ring-white/10">
-              <span class="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-400 text-sm font-bold text-zinc-950">✓</span>
-              <span class="text-sm text-zinc-100">${item}</span>
-            </div>
-          `).join("")}
-        </div>
+        <p class="text-sm font-semibold uppercase tracking-widest text-cyan-300">Git Workflow</p>
+        <h2 class="mt-2 text-3xl font-bold text-white">Build, commit, branch, and merge</h2>
+
+        <div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div class="rounded-xl bg-white/10 p-5">
+            <h3 class="text-lg font-bold text-white">Basic Git Commands</h3>
+            <ul class="mt-3 space-y-2 text-sm text-zinc-300">
+              <li>git status</li>
+              <li>git add .</li>
+              <li>git commit -m "message"</li>
+              <li>git push</li>
+        </ul>
       </div>
-    </section>
-  </main>
+
+      <div class="rounded-xl bg-white/10 p-5">
+        <h3 class="text-lg font-bold text-white">Branch Workflow</h3>
+        <p class="mt-3 text-sm text-zinc-300">
+          Create a branch, make improvements, commit your changes, push the branch, then merge it into main.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>  
+</main>
 `;
